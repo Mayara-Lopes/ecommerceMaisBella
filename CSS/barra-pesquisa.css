@@ -1,0 +1,35 @@
+.search {
+    background: transparent;
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.barra__pesquisa {
+    background-color: transparent;
+    border: solid var(--cor-principal) 2px;
+    border-radius: 25px;
+    padding: 0.8em 5em;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    width: 100%;
+    outline: none;
+}
+
+.barra__pesquisa::placeholder {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    text-align: center;
+    background-image: url(../imagens/search.svg);
+    background-repeat: no-repeat;
+    background-position: 0.2em;
+    width: 100%;
+    
+}
+
+/* iniciando media query para desktop */
+@media screen and (min-width: 1280px) {
+    .search {
+        display: none;
+    }
+}

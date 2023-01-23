@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+
+    <title>MaisBella- HOME</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <div class="container">
+            <input type="checkbox" name="" id="menu-hamburguer" class="container__btn">
+            <label for="menu-hamburguer" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </label>
+
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/user.svg" alt="link para minha conta" class="menu__icone">
+                        <p class="menu__text">Minha Conta</p>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/box.svg" alt="link para meus pedidos" class="menu__icone">
+                        <p class="menu__text">Meus pedidos</p>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/tshirt.svg" alt="link para página de blusas" class="menu__icone">
+                        <p class="menu__text">Blusas</p>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/dress.svg" alt="link para página de vestidos" class="menu__icone">
+                        <p class="menu__text">Vestidos</p>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/phone.svg" alt="link para o fale conosco" class="menu__icone">
+                        <p class="menu__text">Fale Conosco</p>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <img src="./imagens/logo.svg" alt="imagem do logo da loja mais bella" class="logo">
+       
+        <ul class="opcoes">
+            <input type="checkbox" name="" id="opcoes__menu" class="opcoes__btn">
+            <label for="opcoes__menu" class="opcoes__rotulo">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista__menu">
+
+                <li class="lista__menu-itens">
+                    <a href="#" class="lista__menu-link">
+                        <img src="./imagens/tshirt.svg" alt="link para página de blusas" class="lista__icone">
+                        <p class="lista__text">Blusas</p>
+                    </a>
+                </li>
+                <li class="lista__menu-itens">
+                    <a href="#" class="lista__menu-link">
+                        <img src="./imagens/dress.svg" alt="link para página de vestidos" class="lista__icone">
+                        <p class="lista__text">Vestidos</p>
+                    </a>
+                </li>
+
+                <li class="lista__menu-itens">
+                    <a href="#" class="lista__menu-link">
+                        <img src="./imagens/phone.svg" alt="link para o fale conosco" class="lista__icone">
+                        <p class="lista__text">Fale Conosco</p>
+                    </a>
+                </li>
+            </ul>
+        </ul>
+
+        <div class="pesquisa__desktop">
+            <input type="search" name="pesquisa" id="" class="barra__pesquisa-desktop" placeholder="O que deseja encontrar?">
+        </div>
+
+        <div class="container container__desktop">
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__item">
+                    <a href="#" class="cabecalho__link">
+                        <img src="./imagens/profile.svg" alt="link para minha conta" class="cabecalho__icone">
+                    </a>
+                </li>
+
+                <li class="cabecalho__item">
+                    <a href="#" class="cabecalho__link">
+                        <img src="./imagens/shop-cart.svg" alt="link para meu carrinho" class="cabecalho__icone">
+                    </a>
+                </li>
+            </ul>   
+        </div>
+
+        <div class="container">
+            <ul class="nav__link">
+
+                <li class="nav__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/user.svg" alt="link para minha conta" class="menu__icone">
+                        <p class="menu__text">Minha Conta</p>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/box.svg" alt="link para meus pedidos" class="menu__icone">
+                        <p class="menu__text">Meus pedidos</p>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#" class="menu__link">
+                        <img src="./imagens/shopcart.svg" alt="link para meu carrinho" class="menu__icone">
+                        <p class="menu__text">Meus carrinho</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    
+    <section class="search">
+            <input type="search" name="pesquisa" id="barra-pesquisa" class="barra__pesquisa" placeholder="O que deseja encontrar?">
+    </section>
+
+    <section class="carrossel">
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./imagens/colecao2023.svg" alt="imagem tipo banner escrito coleção 2023" class="carrossel__img"></div>
+            <div class="swiper-slide"><img src="./imagens/blusas.svg" alt="imagem tipo banner apresentando desconto de 20% em blusas e jaquetas" class="carrossel__img"></div>
+            <div class="swiper-slide"><img src="./imagens/jeans.svg" alt="imagem tipo banner apresentando desconto de 30% em peças jeans" class="carrossel__img"></div>
+            <div class="swiper-slide"><img src="./imagens/vestidos.svg" alt="imagem tipo banner apresentando desconto de 25% em vestidos" class="carrossel__img"></div>
+            
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+
+        </div>
+
+    </section>
+
+    <section class="clothes__link">
+        <h2 class="clothes__text">Lançamentos</h2>
+        <h2 class="clothes__text">Vestidos</h2>
+        <h2 class="clothes__text">Blusas</h2>
+    </section>
+    
+    <section class="clothes">
+
+        <ul class="card">
+            <li class="card__item">
+                <img src="./imagens/lancamento1.svg" alt="vestido longo amarelo estampado com uma fenda" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$120,00</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+
+            <li class="card__item">
+                <img src="./imagens/lancamento2.svg" alt="conjunto de blusa de manga comprida branca e saia estampada com cor predominante marrom" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$99,90</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+
+            <li class="card__item">
+                <img src="./imagens/lancamento3.svg" alt="conjunto de cropped e saia amarelo com linhas azuis" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$220,00</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+
+            <li class="card__item">
+                <img src="./imagens/lancamento5.svg" alt="vestido de alça longo na cor rosa bebê" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$180,00</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+
+            <li class="card__item">
+                <img src="./imagens/lancamento4.svg" alt="vestido longo branco tipo frente única estampado" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$150,00</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+
+            <li class="card__item">
+                <img src="./imagens/lancamento6.svg" alt="vestido mid preto com bolinhas branca de maga comprida" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$110,00</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+
+            <li class="card__item">
+                <img src="./imagens/lancamento7.svg" alt="camisa branca de manga curta" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$49,90</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+
+            <li class="card__item">
+                <img src="./imagens/lancamento8.svg" alt="blazer preto estilo alfaiataria feminino" class="card__img">
+
+                <div class="card__descricao">
+                    <p class="card__text">R$89,90</p>
+                    <img src="./imagens/cart-card.svg" alt="icone para adicionar peça no carrinho" class="card__icone">
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <h2 class="rodape__text">Desenvolvido Por Mayara Lopes-2023</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./JS/carrossel.js"></script>
+    
+</body>
+</html>

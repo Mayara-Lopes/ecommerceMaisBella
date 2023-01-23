@@ -1,0 +1,22 @@
+@import url(../CSS/header.css);
+@import url(../CSS/barra-pesquisa.css);
+@import url(../CSS/carrossel.css);
+@import url(../CSS/clothes-link.css);
+@import url(../CSS/clothes.css);
+@import url(../CSS/footer.css);
+
+:root {
+    --fonte-principal: 'Poppins', sans-serif;
+    --cor-fundo-fonte: #FFEDD8;
+    --cor-principal: #FE9B91;
+    --cor-secundaria: #FD6084;
+    --cor-elementos: #FCD8AF;
+    --cor-card: #FFF4E8;
+}
+
+body {
+    background: var(--cor-fundo-fonte);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+}

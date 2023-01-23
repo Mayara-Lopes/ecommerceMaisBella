@@ -1,0 +1,28 @@
+/* dispondo links */
+.clothes__link {
+    display: flex;
+    align-content: flex-start;
+    gap: 2em;
+    padding: 0.5em 2em;
+}
+
+.clothes__text {
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* iniciando media query */
+@media screen and (min-width: 1280px) {
+
+    .clothes__link {
+        margin-left: 2.5em;
+    }
+
+    .clothes__text {
+        font-size: 20px;
+    }
+    
+}

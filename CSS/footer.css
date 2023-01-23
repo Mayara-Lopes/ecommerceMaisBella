@@ -1,0 +1,11 @@
+.rodape {
+    background: var(--cor-principal);
+    padding: 1em;
+    margin-top: 1em;
+}
+.rodape__text {
+    color: var(--cor-card);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    text-align: center;
+}
